@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+@layer components {
+  section {
+    @apply px-8 py-5 lg:px-28 lg:py-14;
+  }
+
+  hr {
+    @apply mt-2 h-1 w-14 bg-black;
+  }
+}
+
+@layer utilities {
+  .section-title {
+    @apply text-2xl font-semibold lg:text-5xl;
+  }
+  .cp {
+    @apply px-8 py-5 lg:px-28 lg:py-14;
+  }
+}
