@@ -40,7 +40,7 @@ const CareerPage = () => {
                 <h2 className="text-2xl font-bold">{title}</h2>
                 <p className="text-lg text-gray-500">{exp}</p>
               </div>
-              <button className="h-8 w-20 border-2 border-blue-500 duration-500 hover:bg-blue-500 hover:text-white">
+              <button className="h-8 w-20 text-nowrap border-2 border-blue-500 p-1 text-sm duration-500 hover:bg-blue-500 hover:text-white lg:text-base">
                 View job
               </button>
             </div>
